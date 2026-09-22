@@ -31,6 +31,45 @@
 
 #Mad Lib Project
 
-noun = input("Type a noun: ")
-verb = input("Type a verb: ")
-adjective = input)("Type an adjective")
+# noun = input("Type a noun: ")
+# verb = input("Type a verb with a ing in the end: ")
+# adjective = input("Type an adjective: ")
+# noun2 = input("Type another noun: ")
+# sentence = f"Once opon a time, a {noun} came {verb} down a hill holding a {adjective} {noun2}."
+# print(sentence)
+
+
+# day_of_week = input("What day is it? ")
+# day_of_week = day_of_week.upper()
+# if day_of_week == "TUESDAY":
+#     print("correct")
+# else:
+#     print("incorrect")
+
+
+# x = "test"
+# print(f"hello {x}")
+
+
+
+# temp = 68
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+
+
+#Even or Odd
+
+# number = int(input("Type a number: "))
+# if (number % 2 == 0):
+#     print("Even")
+# else:
+#     print("Odd")
+
+#Tipping System
+
+bill = input("How much is the bill: ")
+service = input("How was the service? (Bad, Okay, Good, or Great): ")
