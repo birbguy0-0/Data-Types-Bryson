@@ -71,5 +71,44 @@
 
 #Tipping System
 
-bill = input("How much is the bill: ")
-service = input("How was the service? (Bad, Okay, Good, or Great): ")
+# bill = float(input("How much is the bill: "))
+# service = input("How was the service? (Bad, Okay, Good, or Great): ")
+# service = service.upper()
+# if (service == "BAD"):
+#     zero = f"You tip 0% ... Your bill is {bill} dollars."
+#     print(zero)
+# if (service == "OKAY"):
+#     fifteen_bill = float(bill * 1.15) 
+#     fifteen = f"You tip 15% ... Your bill is {fifteen_bill} dollars."
+#     print(fifteen)
+# if (service == "GOOD"):
+#     twenty_bill = float(bill * 1.20) 
+#     twenty = f"You tip 20% ... Your bill is {twenty_bill} dollars."
+#     print(twenty)
+# if (service == "GREAT"):
+#     twofive_bill = float(bill * 1.25) 
+#     twofive = f"You tip 25% ... Your bill is {twofive_bill} dollars."
+#     print(twofive)
+# else:
+#     print("You either didn't type right or you trolling :/")
+
+#Number Factor
+
+# number = int(input("Type a number: "))
+# if number <= 0:
+#     print("Please enter a positive integer.")
+# else:
+#     for n in range(1, number + 1):
+#         if number % n == 0:
+#             print(n)
+
+#Greatest Common Factor
+
+number = int(input("Type a number: "))
+number2 = int(input("Type another number: "))
+if number or number2 <= 0:
+    print("Please enter a positive integer.")
+else:
+    for n in range(1, number and number2 + 1):
+        if number or number2 % n == 0:
+            print(n)
