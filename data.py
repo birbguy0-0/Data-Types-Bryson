@@ -104,11 +104,18 @@
 
 #Greatest Common Factor
 
-number = int(input("Type a number: "))
-number2 = int(input("Type another number: "))
-if number or number2 <= 0:
-    print("Please enter a positive integer.")
-else:
-    for n in range(1, number and number2 + 1):
-        if number or number2 % n == 0:
-            print(n)
+x = 0
+gcf = 0
+number = input("Type a number: ")
+number2 = input("Type another number: ")
+
+for n in range(1, number + 1):
+    if number % n == 0:
+        store = n
+        x = number
+for i in range(1, number2 + 1):
+    if number2 % i == 0:
+        store2 = i
+for h in range(0, number):
+    if number.split(x) == number2:
+        print(x)
