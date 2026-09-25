@@ -104,18 +104,15 @@
 
 #Greatest Common Factor
 
-x = 0
-gcf = 0
-number = input("Type a number: ")
-number2 = input("Type another number: ")
+number = int(input("Type a number: "))
+number2 = int(input("Type another number: "))
+if number < number2:
+    for n in range(1, number2 + 1):
+          if number % n  == 0 and number2 % n == 0:
+                store = n
 
-for n in range(1, number + 1):
-    if number % n == 0:
-        store = n
-        x = number
-for i in range(1, number2 + 1):
-    if number2 % i == 0:
-        store2 = i
-for h in range(0, number):
-    if number.split(x) == number2:
-        print(x)
+elif number2 < number:
+     for n in range(1, number + 1):
+            if number % n  == 0 and number2 % n == 0:
+                store = n
+print(store)
