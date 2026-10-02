@@ -1,12 +1,12 @@
 dictionary = {
     "PEN": "Pen 145th Generation",
-    "pen_price": 2.50,
+    "pen": 2,
     "CHICKEN": "Carl The Chicken",
-    "chicken": 7.00,
+    "chicken": 7,
     "POTATO": "Pip The Potato",
-    "potato": 4.25,
+    "potato": 4,
     "BREAD": "Barry The Loaf of Bread",
-    "bread": 5.00
+    "bread": 5
 }
 items = []
 total = 0
@@ -16,15 +16,15 @@ while True:
     choose = input("Do you wish to continue or go to cart (Continue or Cart): ")
     choose = choose.upper()
     if choose == "CONTINUE":
-        items = items.append(list)
+        items.append(list)
         list = list.lower()
-        total += float(list)
+        total += dictionary[list]
     if choose == "CART":
-        items = items.append(list)
+        items.append(list)
         list = list.lower()
-        total += float(list)
+        total += dictionary[list]
         print("Cart: ")
-        print(list)
+        print(items)
         print(f"Total: {total}")
         break
 
